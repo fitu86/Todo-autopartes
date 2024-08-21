@@ -1,0 +1,21 @@
+{
+  "name": "toauback",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=8080 next dev",
+    "build": "next build",
+    "start": "PORT=8080 next dev",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@directus/sdk": "^17.0.0",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}
